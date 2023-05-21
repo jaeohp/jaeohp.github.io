@@ -1,0 +1,59 @@
+---
+layout  : post
+title   : Index
+---
+
+___ 
+
+* TOC
+{:toc}
+
+___ 
+
+## ex
+- 2023-05-15-Effective-Java
+- 2023-05-15-Effective-Java
+    - 2023-05-15-Effective-Java
+    - 2023-05-15-Effective-Java
+- 2023-05-15-Effective-Java
+
+### 코드 테스트 
+```python
+package project.logit.domain.sign.service;
+
+import lombok.RequiredArgsConstructor;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+import project.logit.domain.member.repository.MemberRepository;
+
+@Service
+@RequiredArgsConstructor
+@Transactional(readOnly = true)
+public class SignService {
+    private final MemberRepository memberRepository;
+//    private final RoleRepository roleRepository; // 수정해야함.
+    private final PasswordEncoder passwordEncoder;
+//    private final TokenService tokenService;
+
+}
+```
+
+### h3 제목 
+
+그냥 글
+
+- 일 단계
+    - 이단계
+    > 오 개꿀 
+        - 삼단계 
+        > 인용여기 
+
+## h3 제목 
+
+그냥 글을 주욱 쓸 경우. 쓸 
+
+새로 추가된 내용 
+> 인용문 은냥 글
+
+> 인용의 인용 1 
